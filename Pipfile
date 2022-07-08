@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+[dev-packages]
+semgrep = ">=0.94.0"
+#pipenv = ">=2022.6.7"
+pre-commit = ">=2.19.0"
+pre-commit-hooks = ">=4.2.0"
+git-pre-commit-hook-utils = ">=0.0.5"
+
+[requires]
+python_version = "3.8"
